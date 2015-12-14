@@ -140,7 +140,7 @@
 	$(function(){
 		$('#sendForm').submit(function(event){
 			event.preventDefault();
-			$.post( "thank-you", $( "#contactForm" ).serialize(), function(data){
+			$.post( "thank-you", $( "#sendform" ).serialize(), function(data){
 				$('#sendForm').addClass("hide");
 				$('#backup-paa-vej').addClass("show");
 			} );
