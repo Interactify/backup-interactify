@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CAP-Leasing</title>
-    <description>Din leasing partner
+    <title>Interactify Backup</title>
+    <description>Interactify
 </description>
-    <link>http://cap-leading.dk/</link>
-    <atom:link href="http://cap-leading.dk/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Dec 2015 04:13:21 +0100</pubDate>
-    <lastBuildDate>Mon, 14 Dec 2015 04:13:21 +0100</lastBuildDate>
+    <link>http://interactify.dk/</link>
+    <atom:link href="http://interactify.dk/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 14 Dec 2015 10:17:32 +0100</pubDate>
+    <lastBuildDate>Mon, 14 Dec 2015 10:17:32 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>
 </description>
         <pubDate>Tue, 08 Dec 2015 01:00:00 +0100</pubDate>
-        <link>http://cap-leading.dk/2015/12/08/bmw.html</link>
-        <guid isPermaLink="true">http://cap-leading.dk/2015/12/08/bmw.html</guid>
+        <link>http://interactify.dk/2015/12/08/bmw.html</link>
+        <guid isPermaLink="true">http://interactify.dk/2015/12/08/bmw.html</guid>
         
         
       </item>
@@ -26,8 +26,8 @@
         <description>
 </description>
         <pubDate>Tue, 08 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://cap-leading.dk/2015/12/08/porsche-panamera-4s-2011.html</link>
-        <guid isPermaLink="true">http://cap-leading.dk/2015/12/08/porsche-panamera-4s-2011.html</guid>
+        <link>http://interactify.dk/2015/12/08/porsche-panamera-4s-2011.html</link>
+        <guid isPermaLink="true">http://interactify.dk/2015/12/08/porsche-panamera-4s-2011.html</guid>
         
         
       </item>
@@ -37,8 +37,8 @@
         <description>
 </description>
         <pubDate>Tue, 08 Dec 2015 00:00:00 +0100</pubDate>
-        <link>http://cap-leading.dk/2015/12/08/mercedes-cls-63-amg-2011.html</link>
-        <guid isPermaLink="true">http://cap-leading.dk/2015/12/08/mercedes-cls-63-amg-2011.html</guid>
+        <link>http://interactify.dk/2015/12/08/mercedes-cls-63-amg-2011.html</link>
+        <guid isPermaLink="true">http://interactify.dk/2015/12/08/mercedes-cls-63-amg-2011.html</guid>
         
         
       </item>
