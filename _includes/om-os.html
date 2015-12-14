@@ -18,9 +18,15 @@
 		
 		<div class="row">
 			<div class="col-md-12">
+				<div class="statusContainer">
+					
 				
+				<div id="backup-paa-vej">
+					<div class="status"><i class="ion-checkmark-circled"></i></div>
+					<div class="status-text">Så snart at vi har hentet dit site, så modtager du en email med et link til hvor du kan hente det.</div>
+				</div>
 				
-				<form name="contact" class="contact-form" id="contactForm" method="post" netlify="">
+				<form name="contact" class="contact-form" id="sendForm" method="post" netlify="">
 					<!--<h3>Udfyld</h3>-->
 					<div class="row">
 						<div class="col-md-12">
@@ -61,8 +67,19 @@
 					
 				</form>
 				
-				
+				</div>
 			</div>
 		</div>
 	</div>
 </article>
+<script>
+	$(function(){
+		$('#sendForm').submit(function(event){
+			event.preventDefault();
+			$.post( "thank-you", $( "#contactForm" ).serialize(), function(data){
+				$('#sendForm').addClass("hide");
+				$('#backup-paa-vej').addClass("show");
+			} );
+		});
+	});
+</script>

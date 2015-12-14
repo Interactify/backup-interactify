@@ -579,6 +579,31 @@ a[target="_blank"] {
 svg {
   display: none; }
 
+#backup-paa-vej {
+  width: 400px;
+  margin: auto;
+  background-color: #222;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: .5s all ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: block;
+  top: 50%;
+  left: 50%; }
+  #backup-paa-vej div.status {
+    text-align: center;
+    font-size: 80px; }
+  #backup-paa-vej.show {
+    opacity: 1;
+    visibility: visible; }
+
+.statusContainer {
+  height: 240px; }
+
 #statistik {
   margin-bottom: -1px; }
   #statistik .parallax-window {
