@@ -186,3 +186,11 @@ div.icon-desc {
 .container {
     font-size: 17px;
 }
+
+
+a[target="_blank"] {
+    display: none !important;
+    div {
+        display: none;
+    }
+}

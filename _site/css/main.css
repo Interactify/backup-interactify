@@ -571,6 +571,11 @@ div.icon-desc {
 .container {
   font-size: 17px; }
 
+a[target="_blank"] {
+  display: none !important; }
+  a[target="_blank"] div {
+    display: none; }
+
 #statistik {
   margin-bottom: -1px; }
   #statistik .parallax-window {
