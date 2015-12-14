@@ -1,0 +1,29 @@
+<article class="black" id="showroom">
+    <div class="header">
+        <div class="header-text">
+            <span class="dominant">CAP</span> <span class="dominant textGreen">&nbsp;SHOWROOM</span>
+        </div>
+        <span class="border-line"></span>
+        <p class="header-description">
+            Der bliver kælet for hver enkelt bil i vores showroom
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            {% for post in site.posts %}
+            <div class="col-md-4">
+                <div class="car-container" data-id="car-{{forloop.index}}" data-url="{{ post.url | prepend: site.baseurl }}">
+                    <div class="car-image" style="background-image: url('{{ post.billede_1 }}')"></div>
+                    <div class="car-text">
+                        <div class="title">{{post.title}}</div>
+                        <div class="price">{{post.maanedlig_ydelse | tusinde }}</div>
+                        <div class="element">Månedlig ydelse</div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            
+        </div>
+    </div>
+</article>

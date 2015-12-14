@@ -1,0 +1,38 @@
+.site-footer {
+	background-color: $darkgray;
+	text-align: center;
+	padding: 70px;
+	
+	span.elegant {
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		margin: 0px;
+		font-size: 26px;
+		margin-bottom: 0px;
+		letter-spacing: 1px;
+		color: #ffffff;
+		text-transform: uppercase;
+	}
+	
+	span.dominant {
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		font-weight: 100;
+		margin: 0px;
+		font-size: 26px;
+		margin-bottom: 0px;
+		letter-spacing: 1px;
+		color: #ffffff;
+	}
+	
+	ul.social {
+		a {
+			font-size: 20px;
+			color: #ffffff;
+		}
+	}
+	
+	a {
+		color: #ffffff;
+	}
+}
